@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+<h1> Work Flow digram</h1>
+
+<a href="https://app.diagrams.net/#G1RX0YdLqpaTrwnU43XOAnhvSgkpljHpl4" target = "_blank" alt="plaing diagram" >
+
+<h1> Work bord</h1>
+
+<a href="https://trello.com/b/apJOwOcg/map" target= "_blank" alt="planning board" >documentation</a>
+
+
+
+<h1> npm installs</h1>
+<h2> state managament</h2>
+<p> # If you use npm:
+npm install react-redux</p>
+
+<a href="https://react-redux.js.org/introduction/getting-started" target = "_blank" alt = "react redux documentaion">documentation</a>
+
+
+<h2> React Router</h2>
+
+<p> npm install react-router-dom</p>
+
+<a href="https://reactrouter.com/en/main/start/tutorial" target = "_blank" alt = "router documentation">documentation</a>
