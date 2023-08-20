@@ -6,6 +6,11 @@ import AdditionalInfo from "./pages/AdditionalInfo";
 import Resume from "./pages/Resume";
 import NotFound from './pages/NotFound';
 import background from "./assets/ps4Live/ps4Background.MP4"
+import photo from './assets/static/startmenu/snapedit_1692386005216.jpg'
+
+
+
+
 
 function App() {
   return (
