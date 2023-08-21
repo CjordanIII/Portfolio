@@ -36,7 +36,7 @@ export default function QuotesAPI() {
 
   return (
     <>
-      <p>{quote}</p>
+      <p>"{quote}"</p>
       <p>-{aurther}</p>
     </>
   );
