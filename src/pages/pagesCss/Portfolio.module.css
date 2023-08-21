@@ -1,4 +1,17 @@
-div{
+.portfilioContainer{
     color:#fdfffe ;
+    position: relative;
+    font-size: 40px;
+    left: 60%;
+    top:-30%;
+}
 
+.projectNameContainer{
+    display: flex;
+    gap: 100px;
+    margin:10px;
+
+}
+a{
+    color: #fdfffe;
 }

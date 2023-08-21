@@ -1,36 +1,19 @@
-import Interduction from './pages/Introduction';
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Portfilio from './pages/Portfolio';
-import AdditionalInfo from "./pages/AdditionalInfo";
-import Resume from "./pages/Resume";
-import NotFound from './pages/NotFound';
-import background from "./assets/ps4Live/ps4Background.MP4"
 
+
+import './App.css';
+import background from "./assets/ps4Live/vecteezy_glitch-noise-static-television-vfx-visual-video-effects_11168860_209.mp4";
+import AnimatedRouts from './components/AnimatedRouts'
 
 
 
 
 
 function App() {
-
-  // const urlPath = window.location.href.split('/').reverse()[0] use later
-
-
   return (
     <div className="App">
-        <video src={background} autoPlay loop muted />
+      <video src={background} autoPlay loop muted />
       <div className="AppContainer">
-        <Routes>
-          <Route path="/" element={<Interduction />} />
-          <Route path="/portfolio" element={<Portfilio />} />
-          <Route path="/portfolio/resume" element={<Resume />} />
-          <Route
-            path="/portfolio/additional-info"
-            element={<AdditionalInfo />}
-          />
-          <Route path="/" element={<NotFound />} />
-        </Routes>
+        <AnimatedRouts />
       </div>
     </div>
   );
