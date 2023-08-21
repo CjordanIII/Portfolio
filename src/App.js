@@ -6,17 +6,21 @@ import AdditionalInfo from "./pages/AdditionalInfo";
 import Resume from "./pages/Resume";
 import NotFound from './pages/NotFound';
 import background from "./assets/ps4Live/ps4Background.MP4"
-import photo from './assets/static/startmenu/snapedit_1692386005216.jpg'
+
 
 
 
 
 
 function App() {
+
+  // const urlPath = window.location.href.split('/').reverse()[0] use later
+
+
   return (
     <div className="App">
-      <video src={background} autoPlay loop muted />
-      <div className='AppContainer'>
+        <video src={background} autoPlay loop muted />
+      <div className="AppContainer">
         <Routes>
           <Route path="/" element={<Interduction />} />
           <Route path="/portfolio" element={<Portfilio />} />

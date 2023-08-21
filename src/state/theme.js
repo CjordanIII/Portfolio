@@ -15,6 +15,6 @@ export const theme = createSlice({
     }
 }
 })
-
+// Use this to to add themes later
 export const { console } = theme.actions;
 export default theme.reducer

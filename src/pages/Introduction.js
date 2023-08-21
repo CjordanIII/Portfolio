@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
-
-
+import style from './pagesCss/Introduction.module.css'
 export default function Interduction(){
+ 
     return (
-      <div>
+      <div className={style.AppContainer}>
         <p>
           Hi, I'm Clarence, a passionate software engineer. With a knack for
           <br />
@@ -20,12 +20,22 @@ export default function Interduction(){
           functionality to the digital world!
           <br />
         </p>
-        <h1>
-          <Link to="/portfolio">Portfolio</Link>
-        </h1>
-        <h1>
-          <Link to="/portfolio/resume">Resume</Link>
-        </h1>
+        <div className= {style.Links}>
+          <Link
+            style={{ textDecorationLine: "none", color: "#fdfffe" }}
+            to="/portfolio"
+          >
+            <h1 className={style.Link}>Portfolio</h1>
+          </Link>
+
+          <Link
+            style={{ textDecorationLine: "none", color: "#fdfffe" }}
+            to="/portfolio/resume"
+          >
+            <h1 className={style.Link}>Resume</h1>
+          </Link>
+        </div>
       </div>
     );
+    
 }
