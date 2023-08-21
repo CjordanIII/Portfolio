@@ -6,7 +6,7 @@ export const projects = createSlice({
     projectsData: [
       {
         name: "currencies",
-        deployed: "https://magenta-parfait-6ca7d5.netlify.app/currencies",
+        deployed: "https://magenta-parfait-6ca7d5.netlify.app",
         repo: "https://github.com/CjordanIII/crypto",
       },
       {
