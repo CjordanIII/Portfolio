@@ -1,3 +1,134 @@
+<h1> Portfolio</h1>
+<h1>Motivation</h1>
+<p> I had changed themes multiply times and I ran across this sample and I gained inspiration from  <a href="https://p5aholic.me/projects/">this.</a></p>
+
+<h1> Build status</h1>
+<p> standard status</p>
+<h1> Code style</h1>
+<p> Standard build<p>
+
+<img src="./public/websiteScreeshots/HomePage.PNG">
+<br>
+<br>
+<img src="./public/websiteScreeshots/portfiolio.PNG">
+
+
+
+
+
+
+
+<h3> Work Flow digram</h3>
+
+<a href="https://app.diagrams.net/#G1RX0YdLqpaTrwnU43XOAnhvSgkpljHpl4" target = "_blank" alt="plaing diagram" >
+
+<h1> Work bord</h1>
+
+<a href="https://trello.com/b/apJOwOcg/map" target= "_blank" alt="planning board" >documentation</a>
+
+
+
+<h1> npm installs</h1>
+<h2> state managament</h2>
+<p> # If you use npm:
+npm install react-redux</p>
+
+<a href="https://react-redux.js.org/introduction/getting-started" target = "_blank" alt = "react redux documentaion">documentation</a>
+
+
+<h2> React Router</h2>
+
+<p> npm install react-router-dom</p>
+
+<a href="https://reactrouter.com/en/main/start/tutorial" target = "_blank" alt = "router documentation">documentation</a>
+
+<h1> Tech Stack</h1>
+<h2>HTML,CSS,JS,<h2>
+
+<h1>Resources/credit<h1>
+<ul>
+    <li><a href="https://www.vecteezy.com/video/11168860-glitch-noise-static-television-vfx-visual-video-effects-stripes-background-tv-screen-noise-glitch-effect-video-background-transition-effect-for-video-editing-more-elements-in-our-portfolio">Background</a></li>
+    <li><a href="https://www.framer.com/motion/introduction/">transitions</a></li>
+    <li><a href="https://api-ninjas.com/api/quotes">api</a></li>
+
+</ul>
+
+<h1>**Updates to come**</h1>
+<ul>
+    <li>
+        Bing able to send me an email
+    </li>
+    <li>
+        Change theme
+    </li>
+    <li>
+        The tech stack I can use
+    </li>
+    <li>
+        My linkedin and other pro socials
+    </li>
+    <li>
+        More pages
+    </li>
+    <li>
+        Better file management
+    </li>
+</ul>
+
+
+
+<!-- documetions for react bellow -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,26 +204,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-<h1> Work Flow digram</h1>
-
-<a href="https://app.diagrams.net/#G1RX0YdLqpaTrwnU43XOAnhvSgkpljHpl4" target = "_blank" alt="plaing diagram" >
-
-<h1> Work bord</h1>
-
-<a href="https://trello.com/b/apJOwOcg/map" target= "_blank" alt="planning board" >documentation</a>
 
 
-
-<h1> npm installs</h1>
-<h2> state managament</h2>
-<p> # If you use npm:
-npm install react-redux</p>
-
-<a href="https://react-redux.js.org/introduction/getting-started" target = "_blank" alt = "react redux documentaion">documentation</a>
-
-
-<h2> React Router</h2>
-
-<p> npm install react-router-dom</p>
-
-<a href="https://reactrouter.com/en/main/start/tutorial" target = "_blank" alt = "router documentation">documentation</a>
