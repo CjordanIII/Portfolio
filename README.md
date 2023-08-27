@@ -41,6 +41,12 @@ npm install react-redux</p>
 <p> npm install react-router-dom</p>
 
 <a href="https://reactrouter.com/en/main/start/tutorial" target = "_blank" alt = "router documentation">documentation</a>
+<h1>Style Sheets</h1>
+
+<p><a href="https://devicon.dev/" > Icon source</a></p>
+
+
+
 
 <h1> Tech Stack</h1>
 <h2>HTML,CSS,JS,<h2>
@@ -56,10 +62,14 @@ npm install react-redux</p>
 <h1>**Updates to come**</h1>
 <ul>
     <li>
-        Bing able to send me an email
+        Moble support
     </li>
+</ul>
+
+<h1>New update</h1>
+<ul>
     <li>
-        Change theme
+        Bing able to send me an email
     </li>
     <li>
         The tech stack I can use
@@ -74,7 +84,6 @@ npm install react-redux</p>
         Better file management
     </li>
 </ul>
-
 
 
 <!-- documetions for react bellow -->

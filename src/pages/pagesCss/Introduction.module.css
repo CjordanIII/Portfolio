@@ -5,3 +5,10 @@
     left: -10%;
     top:-20%;
 }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 import style from './pagesCss/Resume.module.css'
 export default function Resume(){
@@ -12,12 +12,15 @@ export default function Resume(){
         <div className={style.ResumeContainer}>
           <h1>
             <a
-              href="/resume/software-engneering-Perscholas.pdf"
+              href="/resume/Clarence-Jordan.RESUME.2023.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
               Open Resume PDF
             </a>
+          </h1>
+          <h1>
+            <a href="https://www.linkedin.com/in/clarence-jordan-b17351257/" target="_blank" rel="noreferrer"> Linkedin</a>
           </h1>
         </div>
       </motion.div>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.80.3",
     "@react-three/fiber": "^8.13.7",
     "@reduxjs/toolkit": "^1.9.5",

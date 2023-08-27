@@ -37,6 +37,42 @@ export default function Interduction(){
             >
               <h1 className={style.Link}>Portfolio</h1>
             </Link>
+            {/* add icons */}
+            <div className={style.icon}>
+              <i
+                className="devicon-github-original-wordmark "
+                style={{ fontSize: "100px" }}
+              ></i>
+              <i
+                class="devicon-react-original-wordmark"
+                style={{ fontSize: "100px" }}
+              ></i>
+
+              <i
+                class="devicon-javascript-plain"
+                style={{ fontSize: "100px" }}
+              ></i>
+
+              <i
+                class="devicon-mysql-plain-wordmark"
+                style={{ fontSize: "100px" }}
+              ></i>
+
+              <i
+                class="devicon-python-plain-wordmark"
+                style={{ fontSize: "100px" }}
+              ></i>
+
+              <i
+                class="devicon-html5-plain-wordmark"
+                style={{ fontSize: "100px" }}
+              ></i>
+
+              <i
+                class="devicon-css3-plain-wordmark"
+                style={{ fontSize: "100px" }}
+              ></i>
+            </div>
 
             <Link
               style={{ textDecorationLine: "none", color: "#fdfffe" }}

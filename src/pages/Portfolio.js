@@ -1,22 +1,8 @@
 import {Link} from 'react-router-dom'
 import style from './pagesCss/Portfolio.module.css'
 import { motion } from "framer-motion";
-import { useSelector } from 'react-redux/es/hooks/useSelector';
+import Projects from '../components/Projects';
 export default function Portfilio(){
-  // Move logic to a componit later
-  const projects = useSelector((state) => state.project.projectsData);
-  console.log(projects)
-
-  const projectsName = projects.map((nameData) => (
-    <div className={style.projectNameContainer}>
-      
-        <a href={nameData.deployed} target="_blank">
-          {nameData.name}
-        </a>
-        <a href={nameData.repo} target='_blank'>repo</a>
-      
-    </div>
-  ));
 
  
     return (
@@ -28,9 +14,8 @@ export default function Portfilio(){
       >
         <div className={style.portfilioContainer}>
           <h1>Portfolio</h1>
-          
-            {projectsName}
-          
+
+          <Projects />
 
           <h1>
             <Link
@@ -40,6 +25,7 @@ export default function Portfilio(){
               Additional info
             </Link>
           </h1>
+
         </div>
       </motion.div>
     );
