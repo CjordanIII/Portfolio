@@ -12,7 +12,7 @@ export default function Resume(){
         <div className={style.ResumeContainer}>
           <h1>
             <a
-              href="/resume/Clarence-Jordan.RESUME.2023.pdf"
+              href="/resume/ClarenceJordan.RESUME.2023.docx.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -20,7 +20,14 @@ export default function Resume(){
             </a>
           </h1>
           <h1>
-            <a href="https://www.linkedin.com/in/clarence-jordan-b17351257/" target="_blank" rel="noreferrer"> Linkedin</a>
+            <a
+              href="https://www.linkedin.com/in/clarence-jordan-b17351257/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Linkedin
+            </a>
           </h1>
         </div>
       </motion.div>
